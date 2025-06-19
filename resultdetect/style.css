@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    /* background-image: linear-gradient(to right, rgba(247, 63, 63, 0.919), rgb(149, 255, 0)); */
+    background-image: linear-gradient(to right, rgba(117, 117, 117, 0.679), rgb(207, 207, 207));
+    margin-left: 35%;
+    margin-top: 10%;
+    display: block;
+    justify-content: center;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#mname{
+    margin-left:120px;
+    border-radius: 20px;
+    height: 25px;
+    
+}
+#fname{
+    margin: 30px;
+    margin-left: 120px;
+    border-radius: 20px;
+    height: 25px;
+}
+button{
+    margin-left: 159px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+#mname:hover{
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+#fname:hover{
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    height: 40px;
+    width: 100px;
+    transition: all 0.2s ease-in-out;
+    color: rgb(235, 0, 0);
+    background-color: rgb(29, 192, 0);
+}
+h1:hover{
+    transition: all 0.2s ease-in-out;
+   
+    
+}
+#container:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.679), rgb(76, 75, 75));
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    color: rgb(255, 255, 255);
+    
+}
+p{
+    margin-left: 20px;  
+}
+#par{
+    margin-bottom: 20px;
+}
+#res{
+    margin-bottom: 20px;
+}
